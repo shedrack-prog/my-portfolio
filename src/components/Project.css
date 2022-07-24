@@ -1,0 +1,21 @@
+.project-banner {
+  bottom: -100%;
+  background: linear-gradient(
+    180deg,
+    hsla(207, 24%, 40%, 0.3) 0%,
+    hsla(207, 24%, 4%, 1) 95%
+  );
+  transition: all 0.3s ease;
+  /* display: none; */
+}
+
+.project-contents:hover .project-banner {
+  bottom: 0;
+  /* display: flex; */
+}
+
+/* @media screen and (min-width: 500px) {
+  .projects {
+    width: 380px;
+  }
+} */

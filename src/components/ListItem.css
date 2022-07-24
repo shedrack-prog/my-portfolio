@@ -1,0 +1,7 @@
+.active {
+  background-color: #42a5f5 !important;
+  color: #fff;
+}
+.active:hover {
+  background-color: #42a5f5;
+}

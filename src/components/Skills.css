@@ -1,0 +1,94 @@
+.skills {
+  transition: all 1.5s ease-in;
+}
+.show-full {
+  height: 100%;
+  margin-top: px;
+}
+/* .remove-pt {
+  padding-top: 0.5rem;
+  transition: all 1s ease;
+} */
+@media screen and (min-width: 600px) {
+  .Contact-form {
+    width: 65vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    width: 40vw;
+  }
+  .Contact-form {
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    max-width: 35vw;
+  }
+
+  .Contact-form {
+    width: 60vw;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .skills {
+    max-width: 40vw;
+  }
+  .education {
+    max-width: 26vw;
+  }
+  .Contact-form {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 1950px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    max-width: 20vw;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    max-width: 20vw;
+  }
+  .contact-page {
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 2400px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    max-width: 20vw;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .skills {
+    width: 40vw;
+  }
+  .education {
+    max-width: 20vw;
+  }
+  .contact-page {
+    width: 30vw;
+  }
+  .Contact-form {
+    width: 20vw;
+  }
+}
